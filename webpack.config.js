@@ -9,7 +9,7 @@ module.exports = {
     new CleanWebpackPlugin(),   // clear dist directory
     new HtmlWebpackPlugin({
       template: 'index.html',   // use our own html template
-      message: 'Hello World!',  // pass variable to template
+      message: 'From Github!',  // pass variable to template
       hash: true                // append hash to assets to bypass cache
     })
   ],
